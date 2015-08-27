@@ -1,101 +1,101 @@
-Player Name 	 Team 	 Bye Week 	Ave 	 ECR 	 ADP
-Antonio Brown	PIT	11	26	1	1
-Demaryius Thomas	DEN	7	24	3	3
-Dez Bryant	DAL	6	21	2	2
-Odell Beckham Jr.	NYG	11	20	5	4
-Julio Jones	ATL	10	20	4	5
-Calvin Johnson	DET	9	19	6	6
-Randall Cobb	GB	7	19	8	8
-A.J. Green	CIN	7	19	7	7
-Alshon Jeffery	CHI	7	18	9	10
-T.Y. Hilton	IND	10	17	11	9
-Mike Evans	TB	6	17	10	11
-Emmanuel Sanders	DEN	7	16	14	12
-DeAndre Hopkins	HOU	9	15	12	14
-Brandin Cooks	NO	11	15	13	13
-Jordan Matthews	PHI	8	14	15	15
-Julian Edelman	NE	4	12	21	17
-Keenan Allen	SD	10	10	17	22
-Sammy Watkins	BUF	8	10	23	20
-DeSean Jackson	WAS	8	9	20	21
-Vincent Jackson	TB	6	8	26	27
-Amari Cooper	OAK	6	7	18	18
-Davante Adams	GB	7	5	28	35
-Golden Tate	DET	9	5	22	19
-Mike Wallace	MIN	5	5	32	28
-Andre Johnson	IND	10	5	16	16
-Brandon Marshall	NYJ	5	5	19	23
-Jeremy Maclin	KC	9	4	24	25
-Jarvis Landry	MIA	5	4	29	26
-Allen Robinson	JAC	8	4	25	31
-Nelson Agholor	PHI	8	3	33	30
-Eric Decker	NYJ	5	3	34	40
-Martavis Bryant	PIT	11	3	27	24
-Torrey Smith	SF	10	3	40	36
-Roddy White	ATL	10	3	30	29
-Donte Moncrief	IND	10	2	70	65
-Larry Fitzgerald	ARI	9	2	31	34
-Charles Johnson	MIN	5	2	37	37
-Michael Floyd	ARI	9	2	43	42
-Marques Colston	NO	11	2	41	43
-Brandon LaFell	NE	4	2	38	38
-Cody Latimer	DEN	7	1	63	54
-Devante Parker	MIA	5	1	53	52
-Pierre Garcon	WAS	8	1	42	44
-Eddie Royal	CHI	7	1	49	49
-Marvin Jones	CIN	7	1	55	68
-Victor Cruz	NYG	11	1	47	32
-Breshad Perriman	BAL	9	1	46	45
-Devin Funchess	CAR	5	1	44	47
-Kendall Wright	TEN	4	1	45	48
-John Brown	ARI	9	1	39	39
-Steve Smith	BAL	9	1	35	33
-Anquan Boldin	SF	10	1	36	41
-Markus Wheaton	PIT	11	1	56	56
-Malcom Floyd	SD	10	1	62	66
-Percy Harvin	BUF	8	1	60	51
-Kevin White	CHI	7	0	61	46
-Jeremy Kerley	NYJ	5	0	117	
-Danny Amendola	NE	4	0	85	79
-Jermaine Kearse	SEA	9	0	96	88
-Leonard Hankerson	ATL	10	0	79	86
-Allen Hurns	JAC	8	0	69	100
-Mohamed Sanu	CIN	7	0	86	67
-Brian Hartline	CLE	11	0	77	104
-Philly Brown	CAR	5	0	80	
-Josh Huff	PHI	8	0	83	90
-James Jones	NYG	11	0	116	81
-Tavon Austin	STL	6	0	105	84
-Riley Cooper	PHI	8	0	109	91
-Robert Woods	BUF	8	0	99	87
-Ty Montgomery	GB	7	0	71	
-Marlon Brown	BAL	9	0	102	98
-Sammie Coates	PIT	11	0	118	77
-Devin Smith	NYJ	5	0	93	92
-Chris Conley	KC	9	0	107	
-Jarius Wright	MIN	5	0	101	106
-Andrew Hawkins	CLE	11	0	75	78
-Jeff Janis	GB	7	0	68	73
-Justin Hunter	TEN	4	0	91	103
-Marqise Lee	JAC	8	0	78	94
-Jaelen Strong	HOU	9	0	90	59
-Kenny Stills	MIA	5	0	52	57
-Rueben Randle	NYG	11	0	54	80
-Terrance Williams	DAL	6	0	50	50
-Reggie Wayne	NE	4	0	100	58
-Doug Baldwin	SEA	9	0	58	55
-Dorial Green-Beckham	TEN	4	0	66	61
-Michael Crabtree	OAK	6	0	57	53
-Brian Quick	STL	6	0	48	63
-Brandon Coleman	NO	11	0	65	69
-Nick Toon	NO	11	0	97	96
-Cecil Shorts	HOU	9	0	73	72
-Cole Beasley	DAL	6	0	84	75
-Greg Jennings	MIA	5	0	92	82
-Tyler Lockett	SEA	9	0	87	76
-Steve Johnson	SD	10	0	51	60
-Phillip Dorsett	IND	10	0	67	70
-Dwayne Bowe	CLE	11	0	59	71
-Cordarrelle Patterson	MIN	5	0	98	64
-Marquess Wilson	CHI	7	0	76	85
-Kenny Britt	STL	6	0	64	83
+Player Name , Team , Bye Week ,Ave , ECR , ADP
+Antonio Brown,PIT,11,26,1,1
+Demaryius Thomas,DEN,7,24,3,3
+Dez Bryant,DAL,6,21,2,2
+Odell Beckham Jr.,NYG,11,20,5,4
+Julio Jones,ATL,10,20,4,5
+Calvin Johnson,DET,9,19,6,6
+Randall Cobb,GB,7,19,8,8
+A.J. Green,CIN,7,19,7,7
+Alshon Jeffery,CHI,7,18,9,10
+T.Y. Hilton,IND,10,17,11,9
+Mike Evans,TB,6,17,10,11
+Emmanuel Sanders,DEN,7,16,14,12
+DeAndre Hopkins,HOU,9,15,12,14
+Brandin Cooks,NO,11,15,13,13
+Jordan Matthews,PHI,8,14,15,15
+Julian Edelman,NE,4,12,21,17
+Keenan Allen,SD,10,10,17,22
+Sammy Watkins,BUF,8,10,23,20
+DeSean Jackson,WAS,8,9,20,21
+Vincent Jackson,TB,6,8,26,27
+Amari Cooper,OAK,6,7,18,18
+Davante Adams,GB,7,5,28,35
+Golden Tate,DET,9,5,22,19
+Mike Wallace,MIN,5,5,32,28
+Andre Johnson,IND,10,5,16,16
+Brandon Marshall,NYJ,5,5,19,23
+Jeremy Maclin,KC,9,4,24,25
+Jarvis Landry,MIA,5,4,29,26
+Allen Robinson,JAC,8,4,25,31
+Nelson Agholor,PHI,8,3,33,30
+Eric Decker,NYJ,5,3,34,40
+Martavis Bryant,PIT,11,3,27,24
+Torrey Smith,SF,10,3,40,36
+Roddy White,ATL,10,3,30,29
+Donte Moncrief,IND,10,2,70,65
+Larry Fitzgerald,ARI,9,2,31,34
+Charles Johnson,MIN,5,2,37,37
+Michael Floyd,ARI,9,2,43,42
+Marques Colston,NO,11,2,41,43
+Brandon LaFell,NE,4,2,38,38
+Cody Latimer,DEN,7,1,63,54
+Devante Parker,MIA,5,1,53,52
+Pierre Garcon,WAS,8,1,42,44
+Eddie Royal,CHI,7,1,49,49
+Marvin Jones,CIN,7,1,55,68
+Victor Cruz,NYG,11,1,47,32
+Breshad Perriman,BAL,9,1,46,45
+Devin Funchess,CAR,5,1,44,47
+Kendall Wright,TEN,4,1,45,48
+John Brown,ARI,9,1,39,39
+Steve Smith,BAL,9,1,35,33
+Anquan Boldin,SF,10,1,36,41
+Markus Wheaton,PIT,11,1,56,56
+Malcom Floyd,SD,10,1,62,66
+Percy Harvin,BUF,8,1,60,51
+Kevin White,CHI,7,0,61,46
+Jeremy Kerley,NYJ,5,0,117,
+Danny Amendola,NE,4,0,85,79
+Jermaine Kearse,SEA,9,0,96,88
+Leonard Hankerson,ATL,10,0,79,86
+Allen Hurns,JAC,8,0,69,100
+Mohamed Sanu,CIN,7,0,86,67
+Brian Hartline,CLE,11,0,77,104
+Philly Brown,CAR,5,0,80,
+Josh Huff,PHI,8,0,83,90
+James Jones,NYG,11,0,116,81
+Tavon Austin,STL,6,0,105,84
+Riley Cooper,PHI,8,0,109,91
+Robert Woods,BUF,8,0,99,87
+Ty Montgomery,GB,7,0,71,
+Marlon Brown,BAL,9,0,102,98
+Sammie Coates,PIT,11,0,118,77
+Devin Smith,NYJ,5,0,93,92
+Chris Conley,KC,9,0,107,
+Jarius Wright,MIN,5,0,101,106
+Andrew Hawkins,CLE,11,0,75,78
+Jeff Janis,GB,7,0,68,73
+Justin Hunter,TEN,4,0,91,103
+Marqise Lee,JAC,8,0,78,94
+Jaelen Strong,HOU,9,0,90,59
+Kenny Stills,MIA,5,0,52,57
+Rueben Randle,NYG,11,0,54,80
+Terrance Williams,DAL,6,0,50,50
+Reggie Wayne,NE,4,0,100,58
+Doug Baldwin,SEA,9,0,58,55
+Dorial Green-Beckham,TEN,4,0,66,61
+Michael Crabtree,OAK,6,0,57,53
+Brian Quick,STL,6,0,48,63
+Brandon Coleman,NO,11,0,65,69
+Nick Toon,NO,11,0,97,96
+Cecil Shorts,HOU,9,0,73,72
+Cole Beasley,DAL,6,0,84,75
+Greg Jennings,MIA,5,0,92,82
+Tyler Lockett,SEA,9,0,87,76
+Steve Johnson,SD,10,0,51,60
+Phillip Dorsett,IND,10,0,67,70
+Dwayne Bowe,CLE,11,0,59,71
+Cordarrelle Patterson,MIN,5,0,98,64
+Marquess Wilson,CHI,7,0,76,85
+Kenny Britt,STL,6,0,64,83
