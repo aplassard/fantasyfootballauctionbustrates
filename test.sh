@@ -1,0 +1,1 @@
+python main.py --rb-auction-file ./data/FantasyPros_2015_RB_Auction_Values.csv --rb-bust-rates ./data/RB_bust_rates.csv --wr-auction-file ./data/FantasyPros_2015_WR_Auction_Values.csv --wr-bust-rates ./data/WR_bust_rates.csv 
