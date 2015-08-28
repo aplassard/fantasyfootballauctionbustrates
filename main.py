@@ -46,8 +46,8 @@ def parse_args():
     parser.add_argument('--qb-te-d-k-cost', help='Total cost spent on QB, TE, D, and K (default 4)',
                         type=int, required=False, default=4)
     parser.add_argument('--total-auction-cost',
-                        help='Total money available for auction (default 200)',
-                        type=int, required=False, default=200)
+                        help='Total money available for auction (default 100)',
+                        type=int, required=False, default=100)
     parser.add_argument('--position-value-function',
                         help='Function to calculate auction position cost (mean, median, max, min)',
                         type=str, required=False, default='median')
@@ -55,10 +55,10 @@ def parse_args():
                         type=int, required=False, default=11)
     parser.add_argument('--num-teams', help='Number of random teams to build (default 1000)',
                         type=int, required=False, default=1000)
-    parser.add_argument('--rb-weights', help='Weight for RBs by end tier (default 1,.5,.25,0,0,0)',
-                        type=str, required=False, default='1,.5,.25,0,0,0')
-    parser.add_argument('--wr-weights', help='Weight for WRs by end tier (default 1,.5,.25,0,0,0)',
-                        type=str, required=False, default='1,.5,.25,0,0,0')
+    parser.add_argument('--rb-weights', help='Weight for RBs by end tier (default 1,.5,.25,0,0)',
+                        type=str, required=False, default='1,.5,.25,0,0')
+    parser.add_argument('--wr-weights', help='Weight for WRs by end tier (default 1,.5,.25,0,0)',
+                        type=str, required=False, default='1,.5,.25,0,0')
     return parser.parse_args()
 
 def main():
@@ -90,13 +90,8 @@ def main():
     rb_busts = Utils.parse_bust_file(rb_bust_file)
     wr_busts = Utils.parse_bust_file(wr_bust_file)
 
-    print rb_tiers
-    print wr_tiers
-    print rb_busts
-    print wr_busts
-
-    #team_simulator = TeamSimulator(rb_tiers, wr_tiers, rb_busts, wr_busts, rb_weights, wr_weights)
-    #team_simulator(num_teams, num_picks, available_cost)
+    team_simulator = TeamSimulator(rb_tiers, wr_tiers, rb_busts, wr_busts, rb_weights, wr_weights)
+    team_simulator(num_teams, num_picks, available_cost)
 
 if __name__ == '__main__':
     main()
