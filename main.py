@@ -4,7 +4,7 @@ import os
 import argparse
 import numpy as np
 import sys
-from ffab import Utils
+from ffab import Utils, TeamSimulator
 
 def parse_position_function(func_string):
     '''Returns the function used to calculate positional auction cost'''
@@ -90,7 +90,13 @@ def main():
     rb_busts = Utils.parse_bust_file(rb_bust_file)
     wr_busts = Utils.parse_bust_file(wr_bust_file)
 
-    team_simulator = TeamSimulator()
+    print rb_tiers
+    print wr_tiers
+    print rb_busts
+    print wr_busts
+
+    #team_simulator = TeamSimulator(rb_tiers, wr_tiers, rb_busts, wr_busts, rb_weights, wr_weights)
+    #team_simulator(num_teams, num_picks, available_cost)
 
 if __name__ == '__main__':
     main()
