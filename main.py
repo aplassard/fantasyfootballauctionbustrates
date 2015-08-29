@@ -59,6 +59,8 @@ def parse_args():
                         type=str, required=False, default='1,.5,.25,0,0')
     parser.add_argument('--wr-weights', help='Weight for WRs by end tier (default 1,.5,.25,0,0)',
                         type=str, required=False, default='1,.5,.25,0,0')
+    parser.add_argument('--output-file', help='Output file for results (default no output)',
+                        type=str, required=False, default=None)
     return parser.parse_args()
 
 def main():
@@ -90,8 +92,27 @@ def main():
     rb_busts = Utils.parse_bust_file(rb_bust_file)
     wr_busts = Utils.parse_bust_file(wr_bust_file)
 
+    output_file = args.output_file
+
     team_simulator = TeamSimulator(rb_tiers, wr_tiers, rb_busts, wr_busts, rb_weights, wr_weights)
-    team_simulator(num_teams, num_picks, available_cost)
+    score_mat = team_simulator(num_teams, num_picks, available_cost)
+
+    if output_file:
+        of = open(output_file, 'w')
+        scores = score_mat.keys()
+        scores.sort()
+        scores.reverse()
+        position_names = ['RB1','RB2','RB3','RB4','RB5','RB6','RB7','RB8',
+                          'WR1','WR2','WR3','WR4','WR5','WR6','WR7','WR8']
+        of.write('score,')
+        of.write(','.join(position_names))
+        of.write('\n')
+        for s in scores:
+            of.write('%f,'%s)
+            v = score_mat[s]
+            of.write(','.join([str(len(filter(lambda y:x==y,v))) for x in position_names]))
+            of.write('\n')
+        of.close()
 
 if __name__ == '__main__':
     main()

@@ -32,12 +32,14 @@ class TeamSimulator(object):
             team = Team(self.rb_costs, self.wr_costs)
             players = team.build(num_players, available_cost)
             sc = self.calculate_score(players)
+            players.sort()
             score_mat[sc[0]] = players
         scores = score_mat.keys()
         scores.sort()
         scores.reverse()
         for i in xrange(100):
             print ','.join(score_mat[scores[i]]),scores[i]
+        return score_mat
 
     def calculate_score(self, players):
         rb_scores = [0.,0.,0.,0.,0.]
